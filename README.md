@@ -32,7 +32,7 @@ On this website, users can make appointments for their dental service
 * Private/Protected Route(Appointment page)
 * Personalized dashboard for both user & admin
 * Basic payment system(Implemented using stripe) 
-* Functionalities: add new doctor, delete doctors, make appointments & payment for appointments, view all appointments. 
+* Functionalities: add new doctors, delete doctors, make appointments & payment for appointments, view all appointments. 
 
 **Used technologies in the front-end:**
 * HTML, CSS, 
