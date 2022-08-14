@@ -27,7 +27,7 @@ On this website, users can make appointments for their dental service
 
 ## Front-end code: https://github.com/sayedpritom999/Doctors-Portal-Client
 
-**In the front-end implemented features and functionalities of the website are:**
+**Implemented features and functionalities on the frontend:**
 * User authentication using email & password. 
 * Private/Protected Route(Appointment page)
 * Personalized dashboard for both user & admin
