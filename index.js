@@ -23,16 +23,6 @@ async function run() {
     const paymentsCollection = client.db('doctors_portal').collection('payments');
 
 
-    // API Naming Convention
-    /**
-     * app.get('/booking') // get all bookings in this collection or get one by filter 
-     * app.get('/booking/:id') // get a specific booking 
-     * app.post('/booking/:id') // add a new booking 
-     * app.patch('/booking/:id') // update specific one
-     * app.put('/booking/:id') // upsert ==> update (if exists) or insert (if doesn't exists). For login, signup, it's clear that data new or old. But continue with social, we don't know old user or new. In this case use put. 
-     * app.delete('/booking/:id') // delete specific one
-     */
-
     function verifyJWT(req, res, next) {
       const authHeader = req.headers.authorization;
       if (!authHeader) {
