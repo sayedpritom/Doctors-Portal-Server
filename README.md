@@ -25,7 +25,7 @@ On this website, users can make appointments for their dental service
 * Heroku(for server hosting)
 
 
-## Front-end code: https://github.com/sayedpritom999/Doctors-Portal-Client
+## Front-end code: https://github.com/sayedpritom/Doctors-Portal-Client
 
 **Implemented features and functionalities on the frontend:**
 * User authentication using email & password. 
